@@ -11,6 +11,7 @@
     ./art
     ./questions
     ./video
+    ./interpretation
   ];
 
   ctf.level-order = [
@@ -24,6 +25,7 @@
     "art"
     "questions"
     "video"
+    "interpretation"
   ];
 
   ctf.entrypoint = {
