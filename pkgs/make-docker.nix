@@ -20,6 +20,8 @@ let
   '';
 
   bashrc-file = writeScript "${name}-bashrc-file" ''
+    alias ls='ls --color=auto'
+
     ${nullOr prompt ''
       # Provide a nice prompt.
       PROMPT_COLOR="1;31m"
