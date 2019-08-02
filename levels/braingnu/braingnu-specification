@@ -1,0 +1,18 @@
+The Braingnu language is an open source standard
+and is unique in also being a one-to-one
+functional replacement for Brainfuck.
+
+The language has eight operators, each
+manipulating a pointer in memory or input/output.
+The operators are as follows:
+
+gold   Write current memory location to output
+gnu    Save character from standard input to memory
+gno    Decrement Pointer (Move left)
+gyes   Increment Pointer (Move right)
+gup    Increment current value
+gdown  Decrement current value
+gthere If the value at the current position
+       is nonzero go to the matching ghere
+ghere  If the value at the current position
+       is zero jump to the matching gthere.
