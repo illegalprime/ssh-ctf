@@ -6,6 +6,7 @@
       ctf-shell = super.callPackage ./ctf-shell.nix {};
       ctf-make-docker = super.callPackage ./make-docker.nix {};
       ctf-flag-format = super.callPackage ./flag-format.nix {};
+      ctf-encrypt-flag = super.callPackage ./encrypt-flag {};
     })
   ];
 }

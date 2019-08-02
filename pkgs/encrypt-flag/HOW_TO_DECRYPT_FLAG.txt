@@ -1,0 +1,6 @@
+The flag is encrypted in the 'flag.enc' file.
+
+Throughout this challenge you will find a key,
+once you do you can decrypt it with:
+
+decrypt KEY flag.enc

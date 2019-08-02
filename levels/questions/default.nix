@@ -6,8 +6,8 @@ let cfg = config.ctf.levels.questions; in
 
     contents = with pkgs; [
       (callPackage ./riddler.nix {})
-      (callPackage ./encrypt-flag.nix {
-        inherit (cfg) flag;
+      (ctf-encrypt-flag {
+        flag = ctf-flag-format cfg.flag;
         key = "hiya"; # TODO: real one
       })
       openssl
